@@ -13,8 +13,37 @@
                    <img src="img/Logo.png" name="Logo" alt="Logo" class="logo-img">
                </div>
                <div class="nums">
-                   <div class="number 1">+7(499) 777-77-77</div>
-                   <div class="number 2">+7(499) 777-77-77</div>
+                  <div class="number 1">+7(499) 777-77-77</div>
+                  <div class="number 2">+7(499) 777-77-77</div>
+                  <div class="feedback">
+                     <button id="feedback-but">Обратная связь</button>
+                     <div class="modal">
+                        <div class="my-block">
+                           <div class="close"><img src="img/close.png"></div>
+                           <div class="reverse-com">Обратная связь</div>
+                           <form class="feedback-form">
+                              <p class="form name">Ваше имя*</p>
+                              <div class="form__field">
+                                 <input type="name" id="name" name="name" class="input name" placeholder=" " required />
+                              </div>
+                              <p class="form phone">Телефон*</p>
+                              <div class="form__field">
+                                 <input type="phone" id="phone" name="phone" class="input phone" placeholder=" " />
+                              </div>
+                              <p class="form email">Email*</p>
+                              <div class="form__field">
+                                 <input <input type="email" id="email" name="email" class="input email" placeholder=" " />
+                              </div>
+                              <p class="form message">Сообщение</p>
+                              <div class="form__field">
+                                 <textarea name="about" class="message-area" value="" ></textarea>
+                              </div>
+                               <button class="feedback-submit" type="submit">Отправить</button>
+                           </form>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="drushed-line"><b>-----------------</b></div>
                </div>
             </div>
          </div>
@@ -39,11 +68,19 @@
 
 
 
-      <div class="slider">
-         <div class="slider-img">
-            <img src="img/Slider.png">
+      <div class="slider ">
+         <div class="slider_item">
+            <img src="img/slide_1.png">
          </div>
+         <div class="slider_item">
+            <img src="img/slide_2.png">
+         </div>
+
       </div>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js" type="text/javascript"></script>
+      <script src="js/slick.min.js" type="text/javascript"></script>
+      <script src="js/script.js" type="text/javascript"></script>
+
 
       <div class="breadcrumbs center">
             <span><a href="#">Главная</a> / <a href="#">Каталог</a> / <span>Бытовая техника</span></span>
